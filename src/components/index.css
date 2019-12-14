@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(55deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+
+}
+
+input:checked+p .text2 {
+  opacity: 0.5;
+
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+  height: 35px;
+  width: 25px;
+  border-style: solid;
+}
+
+
+.text1 {
+  text-align: center;
+  height: 60px;
+  outline: none;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 400px;
+  margin-left: 0.5em;
+
+}
+
+.text1:focus {
+  outline: none;
+  box-shadow: inset 0 -2px 0 0 #A683E3;
+}
+
+.text2 {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  font-size: 25px;
+  margin: 0;
+  padding: 5px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+  overflow: auto;
+}
+
+.text2:focus {
+  outline: none;
+}
+
+.btnadd {
+  min-height: 50px;
+  width: 75px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 3px;
+  border-width: 0;
+  cursor: pointer;
+  margin-left: 5em;
+}
+
+.btnd {
+  min-height: 50px;
+  width: 75px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 3px;
+  border-width: 0;
+  cursor: pointer; 
+  margin-right: 0.2em;
+  margin-left: 1.75em;
+
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+  overflow: hidden;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 3px;
+  margin-left: 15px;
+}
+
+.filter-label {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 8px;
+    color: #A683E3;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.filter-input {
+  margin-left: 10px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.filter-input:disabled , .filter-input:disabled + .filter-label {
+  cursor: not-allowed;
+  opacity: .5
+}
